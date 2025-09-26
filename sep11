@@ -1,0 +1,105 @@
+/* #include<stdio.h>
+void main ()
+{
+ int a;
+ scanf("%d",&a);
+ switch(a)
+ {
+   case 10:
+         printf("the value is 10\n");
+         break;
+   case 1:
+         printf("the value is 1\n");
+         break;
+   case 5:
+         printf("the value is 5\n");
+         break;
+   case 7:
+         printf("the value is 7\n");
+         break;
+    default:
+      printf("no value");
+ }
+}
+
+ */
+/* include<stdio.h>
+void main()
+{
+  char ch;
+    printf("enter a character");
+    scanf("%c",&ch);
+    swich(ch)
+    {
+      case 'a':
+      case 'e':
+      case 'i':
+      case 'o':
+      case 'u':
+           printf("vowel");
+           break;
+      default:
+           printf("consonant");
+    }
+}
+
+ */
+#include<stdio.h>
+void main()
+{
+  int n;
+  printf("enter a number");
+  scanf("%d",&n);
+  switch(n/10)
+    {
+        case 9:
+        case 10:
+             printf("A grade");
+             break;
+        case 8:
+             printf("B grade");
+             break;
+        case 7:
+             printf("C grade");
+             break;
+        case 6:
+             printf("D grade");
+             break;
+        case 5:
+             printf("E grade");
+             break;
+        default:
+             printf("fail");
+    }
+}
+
+#include<stdio.h>
+void main()
+{
+  int n;
+  printf("enter an operator");
+  scanf("%d",&n);
+  switch(n/10)
+    {
+        case 9:
+        case 10:
+             printf("A grade");
+             break;
+        case 8:
+             printf("B grade");
+             break;
+        case 7:
+             printf("C grade");
+             break;
+        case 6:
+             printf("D grade");
+             break;
+        case 5:
+             printf("E grade");
+             break;
+        default:
+             printf("fail");
+    }
+}
+
+//week days, calculator, factorial, fibonacci, swap two numbers using function, call by value, call by reference
