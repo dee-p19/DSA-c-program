@@ -1,32 +1,15 @@
 #include<stdio.h>
-void main(){
-  int a[]={1,2,3,5};
-  int i,j;
-  
-    if(a[i]<a[i+1])
-    {
-      for(i=0;i<5;i++)
-        {if(a[i]>a[i+1])
-         {
-           printf("not sorted");
-           break;
-         }
-        }
-     if (i==5)
-      printf("array is sorted in ascending order");
-    }   
-     else  
-    {
-      for( j=0;j<5;j++)
-        {if(a[j]<a[j+1])
-        {
-          printf("array is not sorted");
-          break;
-        }
-        }
-      if(j==5)
-        printf("sorted in descending order");
-    }
-    
+void main() {
+  int a[]={2,3,5,7,9,12,13,15,17};
+  int target=21, b=3,c,sum;
+  int n=sizeof (a)/sizeof (a[0]);
+  for(int i=0;i<n;i++)
+  {
+    for(int j=0;j<b;j++,c++)
+     c=i;
+     sum=a[c];
   }
-   
+  if(sum==target)
+    printf("found");
+}
+
