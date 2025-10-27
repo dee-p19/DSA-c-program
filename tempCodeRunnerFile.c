@@ -1,16 +1,17 @@
-#include <stdio.h>
-void main()
+#include<stdio.h>
+#include<string.h>
+void main(){
+char a[50];
+printf("enter a string");
+fgets(a,sizeof(a),stdin);
+int x=strlen(a);
+for(int i=0;i<x;i++)
 {
-  int a[]={-2,1,-3,4,-1,2,1,-5,4};
-  int n=sizeof(a)/sizeof(a[0]),sum,maxsum=0;
-  for(int i=1;i<n;i++)
-  { sum=0;
-    for(int j=i;j<n;j++)
-    { 
-      sum+=a[j];
-      if(sum>maxsum)
-        maxsum=sum;
-    }
-  }
-  printf("max sum=%d",maxsum);
+ if(a[i]==',')
+  {a[i]='.';}
+ else if(a[i]=='.')
+  {a[i]=',';}
+}
+for(int i=0;i<x;i++)
+  printf("%c",a[i]);
 }
