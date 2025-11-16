@@ -1,4 +1,5 @@
-/*#include<stdio.h>
+//H.C.F
+#include<stdio.h>
 void main()
 {
   int a,b,sm,i;
@@ -8,19 +9,18 @@ void main()
    sm=a;
   else
    sm=b;
-  
-     while("true")
-        { 
-          if(a%sm==0 && b%sm==0)
-          { printf("HCF=%d",sm);
-           break;}
-          else
-            sm--;
-        }
-    }*/
+  while("true")
+  { 
+   if(a%sm==0 && b%sm==0)
+   { printf("HCF=%d",sm);
+     break;}
+   else
+    sm--;
+  }
+}
 
-
-/*# include<stdio.h>
+//count no of digits in a given number
+# include<stdio.h>
 void main()
 { int n,i;
  printf("enter a number");
@@ -28,10 +28,10 @@ void main()
  for(i=0;n>0;i++)
    { n=n/10; }
   printf("number of digits=%d",i);
-}*/
+}
 
-
-/*#include<stdio.h>
+//sum of digits of a given number
+#include<stdio.h>
 int main(){
   int a,s;
   printf("enter a number");
@@ -40,13 +40,12 @@ int main(){
   {
     s=s+a%10;
     a=a/10;
-    ;
   }
  printf("sum of digits=%d",s);
-}*/
+}
 
-
-/*#include<stdio.h>
+//reverse a given number
+#include<stdio.h>
 int main(){
   int a,l,rev;
   printf("enter a number");
@@ -58,10 +57,11 @@ int main(){
     rev= (rev*10)+l;
   }
  printf("sum of digits=%d",rev);
-}*/
+}
 
 
-/*#include<stdio.h>
+//palindrome
+#include<stdio.h>
 int main(){
   int a,x,l,rev;
   printf("enter a number");
@@ -78,8 +78,9 @@ int main(){
   else
     printf("not a palindrome number");
  
-}*/
+}
 
+// Narcessitic number / Armstrong number 153=1^3+5^3+3^3=153
 #include<stdio.h>
 int main()
 { 
@@ -106,8 +107,8 @@ int main()
   else
     printf("not a narcissistic number");
  }
-
-/*#include<stdio.h>
+//multiplication of even and odd factors of a given number
+#include<stdio.h>
 void main()
 {
   int n,i,e=1,o=1;
@@ -126,7 +127,7 @@ void main()
   printf("even factors=%d\n",e);
   printf("odd factors=%d",o);
 
-}*/
+}
 
 
 

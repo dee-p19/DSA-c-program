@@ -1,4 +1,5 @@
-/*#include<stdio.h>
+//find no of pairs whose sum is equal to target
+#include<stdio.h>
 void main()
 {
  int a[] = {3,5,7,9,10,11,12,14,22,28};
@@ -13,14 +14,14 @@ void main()
       count++;
   }
 }
-printf("\nno. of pairs=%d",count );
-}*/
+printf("\n no. of pairs=%d",count );
+}
 
 
 
 // two pointer methode
 
-/*#include <stdio.h>
+#include <stdio.h>
 void main()
 {
   int a[]={3,5,7,9,14,22,28};
@@ -41,12 +42,10 @@ void main()
   }
  printf("\nno.of pairs=%d",count);
 }
-}*/
+}
 
 
-    // shift all zeros in right side {1,0,2,3,12,0,0,5,7}
-
-
+// shift all zeros in right side {1,0,2,3,12,0,0,5,7}
 
 // sliding window
 #include<stdio.h>

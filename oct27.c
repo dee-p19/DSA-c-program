@@ -7,13 +7,15 @@ void main()
  int cmax=0,gmax=0;
  for(int i=0;i<x;i++)
  {
-   if(a[i]==" ")
+   if(a[i]==' ')
    {
     if(cmax>gmax)
     {gmax=cmax;
-    cmax=0;}
    }
-   cmax++;
+    cmax=0;
+   }
+   else{
+   cmax++;}
  }
  if(gmax<cmax){
   gmax=cmax;

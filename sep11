@@ -76,29 +76,28 @@ void main()
 #include<stdio.h>
 void main()
 {
-  int n;
+  int a,b;
+  char n;
+  printf("enter two numbers:");
+  scanf("%d%d",&a,&b);
   printf("enter an operator");
-  scanf("%d",&n);
-  switch(n/10)
+  scanf(" %c",&n);
+  switch(n)
     {
-        case 9:
-        case 10:
-             printf("A grade");
+        case '+':
+             printf("sum=%d",a+b);
              break;
-        case 8:
-             printf("B grade");
+        case '-':
+             printf("difference=%d",a-b);
              break;
-        case 7:
-             printf("C grade");
+        case '*':
+             printf("multiplication=%d",a*b);
              break;
-        case 6:
-             printf("D grade");
-             break;
-        case 5:
-             printf("E grade");
+        case '/':
+             printf("div=%d",a/b);
              break;
         default:
-             printf("fail");
+             printf("invalid");
     }
 }
 

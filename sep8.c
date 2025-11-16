@@ -1,34 +1,15 @@
-/*#include<stdio.h>
-void main()
-{
-  int n,i,e=1,o=1;
-  printf("enter a number");
-  scanf("%d",&n);
-  for(i=1;i<=n;i++)
-  {
-    if(n%i==0)
-     {
-      if(i%2==0)
-        e=e*i;
-      else
-        o=o*i;
-     }
-  }
-  printf("even factors=%d\n",e);
-  printf("odd factors=%d",o);
-}*/
-
-/*#include <stdio.h>
+//***** 
+#include <stdio.h>
 void main() {
 int i;
 for(i=0;i<5;i++)
 {
   printf("*");
 }
-}*/
+}
 
-
-/*#include <stdio.h>
+//left opposite triangle
+#include <stdio.h>
 void main() {
 int n,i,j;
 printf("enter a number");
@@ -41,9 +22,11 @@ for(i=0;i<n-j;i++)
 }
 printf("\n");
 }
-}*/
+}
 
-/*#include <stdio.h>
+
+//left triangle
+#include <stdio.h>
 void main() {
 int n,i,j;
 printf("enter a number");
@@ -56,9 +39,10 @@ for(i=0;i<j;i++)
 }
 printf("\n");
 }
-}*/
+}
 
-
+//upside down triangle 
+//method 1
 #include <stdio.h>
 void main() {
 int n,i,j,nst;
@@ -79,7 +63,7 @@ for(i=1;i<=n;i++)
 }
 }
 
-
+//method2
 #include <stdio.h>
 void main() {
 int n,i,j,nst,nsp;

@@ -4,7 +4,7 @@
   ***
  ****
 *****  */
-/*#include<stdio.h>
+#include<stdio.h>
 void main()
 {
   int n,nsp,nst,i,j;
@@ -25,9 +25,9 @@ void main()
     nst++;
     printf("\n");
   }
-}*/
+}
 
-
+// half butterfly
 #include <stdio.h>
 void main() {
 int n,i,j,nst,nsp;
@@ -47,34 +47,10 @@ for(i=1;i<=n;i++)
   nsp=nsp-2;
   printf("\n");
 }
-
 }
 
  
-
-#include <stdio.h>
-void main() {
-int n,i,j,nst,nsp;
-printf("enter a number");
-scanf("%d",&n);
-nst=1;
-nsp=(2*n)-3;
-for(i=1;i<=n;i++)
-{
-  for(j=1;j<=nst;j++)
-    {printf(" * ");}
-  for(j=1;j<=nsp;j++)
-   {printf("   ");}
-  for(j=1;j<=nst;j++)
-   {printf(" * ");}
-  nst++;
-  nsp=nsp-2;
-  printf("\n");
-}
-
-}
-
-
+//right half diamond
 #include <stdio.h>
 void main() {
   int n,i,j,nst;
@@ -113,5 +89,6 @@ void main() {
       nst++;
     else
       nst--;
+    printf("\n");
   }
 }
